@@ -134,15 +134,14 @@ section .wrapper{
 }
 
 .btn-primary{
-	background: #27aae1;
+	background: linear-gradient(to bottom,rgba(0,0,0,1),rgba(33, 66, 109));
 	padding: 5px 20px;
 	border: none;
 	font-size: 14px;
-	border-radius: 4px;
-	color: #fff;
+	border-radius: 20px;
 	position: relative;
-  font-weight: 600;
-  outline: none;
+    font-weight: 600;
+    outline: none;
 }
 
 .btn-primary::before{
@@ -158,7 +157,7 @@ section .wrapper{
 }
 
 .btn-primary:hover{
-  background: #149AC9;
+  background: #224e87;
   transition: all 1s;
 }
 
@@ -276,8 +275,13 @@ textarea{
   min-height: 50px;
 }
 
+.logo{
+    
+    color: aliceblue;
+    
+}
 .menu{
-  background: #231F20;
+  background: linear-gradient(to bottom, rgba(28,117,188,.8),rgba(209,82, 126,.8)) center no-repeat;
   border: none;
   border-radius: 0;
   margin-bottom: 0;
@@ -299,7 +303,7 @@ textarea{
 }
 
 .menu form .form-group input.form-control{
-  background: rgba(255,255,255, 0.2);
+  background: rgba(16, 3, 1, 0.5);
   border: 0;
   box-shadow: none;
   min-width: 235px;
@@ -778,7 +782,7 @@ ul.nav-news-feed i.ion-ios-videocam{color: #9e1f63;}
 }
 
 #chat-block .title{
-  background: #8dc63f;
+  background: #246f30;
   padding: 5px 20px;
   width: 70%;
   height: 30px;
@@ -1220,10 +1224,10 @@ ul.online-users li span.online-dot{
 /*Timeline Menu for Large Screens*/
 
 .timeline-cover .timeline-nav-bar{
-  background: rgba(0,0,0, .7);
+  background: rgba(3, 16, 32);
   width: 100%;
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
 }
 
 .timeline-cover .timeline-nav-bar .profile-info{
@@ -1841,6 +1845,7 @@ ul.contact li i{
 	margin: auto;
 	bottom: -90px;
 }
+
 
 .arrows path {
 	stroke: #27aae1;
