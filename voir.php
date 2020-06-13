@@ -9,10 +9,8 @@
     $executeOk = $pdoStat->execute();
     $posts = $pdoStat->fetchALL();
 
-/*   echo "<a href=\"edit.php?id={$data["id"]}\">Modifier ce post </a>"; 
+/*  echo "<a href=\"edit.php?id={$data["id"]}\">Modifier ce post </a>";
     echo "<a href=\"suppr.php?id={$data["id"]}\">X</a> <br />"; */
-
-
 
      foreach($posts as $post): ?>
 
@@ -80,3 +78,4 @@
 </div>
 
 <?php endforeach; ?>
+
